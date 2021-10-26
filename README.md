@@ -10,6 +10,8 @@ Test requests from electronic device
 3. Установите зависимости:
     - `pip install -r requirements.txt`
 4. Установите необходимое тестируемое устройство на server.py
-5. Запустите сервер
-6. Запустите в командной строке 
-   - `python client.py --dir your_file_name.csv`
+5. Запустите серверы
+   - `python server.py`
+   - `python do_test.py`
+7. Запустите в командной строке 
+   - `python sender.py localhost file_name.csv `
